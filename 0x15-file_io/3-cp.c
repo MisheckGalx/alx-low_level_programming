@@ -2,10 +2,10 @@
 #define BUF_SIZE 1024
 
 /**
-* main - main
-* @argc: number of arguments
-* @argv: a pointer point to the array of arguments
-* Return: Always 0
+* main - Main
+* @argc: Number arguments
+* @argv: A pointer to the array of arguments
+* Return: Always zero
 **/
 
 int main(int argc, char **argv)
@@ -43,8 +43,8 @@ int main(int argc, char **argv)
 }
 
 /**
-* error_98 - checks error 98
-* @f0: the value to check
+* error_98 - Checks error 98
+* @f0: the value check
 * @buffer: the buffer
 * @argv: argument
 **/

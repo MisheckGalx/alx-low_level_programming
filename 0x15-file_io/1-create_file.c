@@ -2,13 +2,13 @@
 #include <string.h>
 
 /**
- * create_file - creates a file
- * @filename: name of the file to create
- * @text_content: pointer to the string we want to write
+ * create_file - Creates file
+ * @filename: Name the file to create
+ * @text_content: Pointer the string want to be write
  *
- * Return: 1 on success | -1 0n failure
- * if filename is NULL return -1
- * if text_content is NULL create an empty file and give rw-------
+ * Return: One on success | -1 0n failure
+ * if filename NULL return -1
+ * if text_content NULL create empty file and give rw-------
  */
 
 int create_file(const char *filename, char *text_content)
